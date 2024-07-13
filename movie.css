@@ -1,0 +1,84 @@
+body{
+    background: radial-gradient(circle, rgb(55, 126, 167) 0%, rgb(150, 164, 213) 100%);
+}
+
+/* CSS for Header data */
+.header-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-link{
+    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0px 0px 30px;
+}
+
+.header-link a{
+
+    text-decoration: none;
+    color: black;
+}
+
+.header-link a:hover{
+    color: lightseagreen;
+    background-color: black;
+}
+
+/* movie details container,poster*/
+
+.main-movie-poster{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-movie-details{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-movie-poster img{
+    border: 5px;
+    border-style: solid;
+}
+
+/*full movie details */
+.full-movie-details{
+    border: 5px;
+    border-style: solid;
+}
+
+
+/* fav heart */
+.fa-heart-text{
+    color :black;
+    font-weight: bold;
+    margin-left: 35%;
+    border-radius: 50%;
+}
+.fa-heart{
+    color :white;
+    font-size: 150%;
+    margin-left: 45%;
+    border-radius: 50%;
+}
+.fa-heart:hover{ 
+    color: red;
+}
+
+/* ul details */
+.details-ul{
+    margin-right: 6%;
+}
+.details-ul-1{
+    margin-right: 19.5%;
+
+}
+
+li{
+    font-weight: bold;
+}
