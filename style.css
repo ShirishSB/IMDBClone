@@ -1,0 +1,188 @@
+html,body{
+    background: radial-gradient(circle, rgb(55, 126, 167) 0%, rgb(150, 164, 213) 100%);
+    max-width: 100%;
+    overflow-x:hidden;
+
+
+}
+/* navbar Section CSS*/
+.navbar{
+    display: flex;
+    margin: 5px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar button{
+    border: none;
+    background-color: white;
+}
+.input-group{
+    width: 700px;
+}
+
+/* Home page*/
+.home-page a{
+    text-decoration: none;
+    color: white;
+}
+
+.home-page a h5:hover{
+    color:black;
+    background-color: lightblue;
+}
+
+
+/* Favourite movie page */
+.favourite-movie a{
+    text-decoration: none;
+    color : white;
+}
+
+.favourite-movie a h5:hover{
+    color: black;
+    background-color: lightblue;
+}
+
+.favourite-movie{
+    margin-left: 50px;
+    font-display: unset;
+
+    color: black;
+}
+
+
+
+li{
+    list-style-type: none;
+}
+/* input box*/
+.input-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+}
+/*movie container*/
+#movie-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 75%;
+    padding: 5px;
+    margin: 0px auto;
+}
+
+/* fav item container */
+.fav-item{
+    
+    box-shadow: 1px 2px #a1a1a1;
+    margin: 0px 5px 20px 5px;
+    width: 25%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.fav-poster img{
+    width: 215px;
+    height: auto;
+    padding: 1px 1px;
+
+}
+.fav-details{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: black;
+}
+.fav-details-box {
+    background-color:black;
+    margin: 0px 5px 5px 5px;
+}
+.fav-details-box p a{
+
+    color : white;
+  font-weight:bold ;
+  text-decoration: none;
+
+}
+
+/* Favourites */
+.fa-heart{
+    color :white;
+    margin-left: 45%;
+    font-size: 150%;
+    border-radius: 50%;
+}
+
+.fav-details-box div .fa-heart:hover{ 
+
+    color: red;
+}
+
+/*media Query for responsive web design */
+
+@media  only screen and (max-width:1255px) {
+    #movie-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 75%;
+        padding: 5px;
+        margin: 0px auto;
+    }
+
+    .fav-item{  
+        box-shadow: 1px 2px #a1a1a1;
+        margin: 0px 5px 5px 5px;
+        width: auto;
+        padding: 10px;
+        background-color: white;
+        border-radius: 4px;
+    }
+
+    .fav-poster img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 215px;
+        height: auto;
+        padding: 1px 1px;
+    
+    }
+    
+}
+
+@media  only screen and (max-width:913px) {
+    #movie-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 75%;
+        padding: 5px;
+        margin: 0px auto;
+    }
+
+    .fav-item{  
+        box-shadow: 1px 2px #a1a1a1;
+        margin: 0px 5px 20px 5px;
+        width: auto;
+        height: auto;
+        padding: 10px;
+        background-color: white;
+        border-radius: 4px;
+    }
+
+    .fav-poster img{
+        width: 180px;
+        height: auto;
+        padding: 1px 1px;
+    
+    }
+    
+}
