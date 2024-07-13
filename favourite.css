@@ -1,0 +1,54 @@
+body{
+    background: radial-gradient(circle, rgb(55, 126, 167) 0%, rgb(150, 164, 213) 100%);
+}
+
+/* CSS for header-data */
+.header-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-link{
+    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0px 0px 30px;
+}
+
+.header-link a{
+
+    text-decoration: none;
+    color: black;
+}
+
+.header-link a:hover{
+    color: lightseagreen;
+    background-color: black;
+}
+
+/* CSS for Header Data Container */
+
+.fav-details-container{
+    display: flex;
+    background: radial-gradient(circle, rgb(55, 126, 167) 0%, rgb(150, 164, 213) 100%);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: 1px 2px #a1a1a1;
+    margin: 0px 5px 20px 5px;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.fav-details-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.fa-trash{
+    font-size: larger;
+}
